@@ -1,0 +1,45 @@
+🔴JSX- JavaScript XML File
+    It is a extension of JavaScript.
+    we can write JavaScript and html code in single file using { .jsx}
+
+  👉There are 3 rule to write a code-
+    1)Must have container/Wrapper.
+      -<div>...</div>
+      -<>...</>
+      -<React.Fragment>...</React.Fragment>
+      -<React.StrictMode>...</React.StrictMode>
+    2)They don't allow void tags.(only allows opening-closing tags)
+    3)It allows property binding.(className="")
+
+
+
+🔴Virtual DOM-
+    -It is a lightweight presentation of regular DOM
+    -Its update & render result faster than regular
+    -This is stored in browser memory
+    -Changes only the updated part/element without refreshing whole webpage
+    👉Reconcilation Process-
+	-Updating DOM efficiently using Diffing Algorithm-used to compare the version of data and identify changes between them.
+							  -it comparing the original and modified versions
+
+
+   
+
+🔴CSS, Bootstrap & JavaScript-
+    👉CSS-style={{color:"red"}}
+
+    👉JS-
+
+    👉Bootstrap-1)using CDN Link
+   	        2)Using npm packages {npm i bootstrap}
+		{../node_module/bootstrap/dist/css/bootstrap.min.css}
+		{../node_module/bootstrap/dist/js/bootstrap.min.js}
+
+
+
+🔴Git Repository
+    👉1)git init
+    👉2)git add.
+    👉3)git commit -m
+    👉4)git remote add origin
+    👉5)git push -u origin main

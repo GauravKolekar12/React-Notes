@@ -1,0 +1,45 @@
+🔴Events in class Component-
+   👉constructor{
+    👉super()
+	this.state({
+	   name="...",
+	   skills="..."
+	})
+    }
+
+    updateState={
+		this.setState{  name="..."
+				skills="..."
+		}
+	}
+
+  👉render() return{
+    <h1>Name is:{this.state.name}</h1>
+    <button onclick={()=>this.updateState()} Click Me </button>
+    }
+
+
+
+🔴Events in Functional Component-
+    -Cannt use state method
+    -Access using props method
+    -
+
+
+
+🔴Props-
+    -It is built-in object of react
+    -It is used to pass the data from one component to another component
+    -Data flow is parent-child only,access only child component
+    -It is immutable i.e cannot update  object
+
+	👉Component Reusability using props
+	
+
+
+
+		👉Props								👉States
+	The Data is passed from one component to another.	   |	The Data is passed within the component only.
+	It is Immutable (cannot be modified).			   |	It is Mutable ( can be modified).
+	Props can be used with state and functional components.	   |	The state can be used only with the state components/class component (Before 16.0).
+	Props are read-only.					   |	The state is both read and write.

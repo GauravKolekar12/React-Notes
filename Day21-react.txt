@@ -1,0 +1,25 @@
+🔴Form Handling-
+    -Creating form to handle and save the data that was from the user
+    -It is used to handle the data updation in the CRUD operation
+    -
+
+
+
+
+
+	👉Synthetic Event-(e)-Which is used to perform form handling
+			-Cross Browser object and handles the events
+			-access all over data
+
+
+
+
+
+	👉React Toastify-
+			-npm install --save react-toastify
+			-import { ToastContainer, toast } from 'react-toastify';
+			-const notify = () => toast("Wow so easy!");
+			-<div>
+        		  <button onClick={notify}>Notify!</button>
+        		  <ToastContainer />
+      			 </div>

@@ -1,0 +1,32 @@
+🔴E-commerce Data-
+    -Creating Product component and then import
+	-create components having its own data and it can be iterate using by importing each and every component in App.js
+
+    -Data passed through the props
+	-create another component and import in App.js & passed a parameter into the component to get the data
+
+    -Data is creating one component and passed using props
+	-Data is stored in the single array-object and card/displaying data is stored in another component & iterate using props by passing parameter one by one(indexing)
+
+    -Data is created using array-object and passed using props
+	-Data is stored in the single array-object and card/displaying component is created in another component & iterate using props by passing parameter
+
+    -Data is created using array-object and passed through map() method
+		👉map()- Iterate Array object data
+			return new array
+			it works like chainable-we can used array method
+
+👉syntax-	{
+              Products.map((val,index)=>{
+                return(
+                  <div className='col-md-3' key={val.id}>
+                  <Product
+                    name={val.name}
+                    img={val.img}
+                    price={val.price}
+                    btn={val.btn}
+                  />
+                </div>
+                )
+              })
+            }

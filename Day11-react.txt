@@ -1,0 +1,29 @@
+🔴Hooks-
+    -A function is used to perform multiple operation,validation,manupilation in functional components
+    -Provide built in functionality
+    -Must called in react functional components
+    -holds the statefull logics like state object in class components
+    -prefix- use....
+
+
+  👉Step to Work-
+    -import
+    -call
+    -used
+
+	1)useNavigate- to navigate/redirect to multiple components
+		-To see the history/visited pages 
+	
+	2)useLocation- detail information about current url(uniform resorce locator)
+		-written javasript location path
+		-can perform conditional rendering(if needed)
+
+	3)useParams- fetch/access the data from current url 
+		-
+
+
+
+url decoding
+domain host protocols https pathname query variables 
+		
+		

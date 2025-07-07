@@ -1,0 +1,28 @@
+🔴Class Components-
+    -There is render method to return jsx code 
+    -There are states
+
+👉Syntax- 	import React from 'react'
+		class App Extend React.Component{	
+		  Constructor(){			--create/initialize the object  --create object using 'New' keyword & set the object value  --t access the properties of parent compo
+		    super()				--inherits the properties of parent to child
+		  }
+		  render(){
+			return(){
+			  <>...</>
+			}
+		  } 
+	        }
+		export default App
+
+
+🔴State-
+    -Built in react object in class component
+    -It is used to hold and manages the data
+    -It cannot access the child component i.e accessibility is limited to that component
+    -Mutable(can update)
+
+👉Syntax- 		this.state=({
+			key  :value(object form)			--written in constructor() method
+		})
+	

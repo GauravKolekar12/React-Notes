@@ -1,0 +1,30 @@
+🔴REACT HOOKS-
+	1)useState- to holds the data/manage the state used in functional components
+		-It is mutable (can change/update the specific part of DOM)
+		-written inside the functional component
+		-can pass any type of data as a initial data
+
+	👉syntax- const[state,setState]=useState(initial State);
+
+		setCount(count=>count+1);- used to hold/maintain previous state data	-new data is depends upon previous data
+		setCount(count+1); -direct value form	-uses current captured value
+		
+	
+	2)useEffect- used to perform  the side-effect on application
+		-do something after re-rendering/called after rendering
+		-used in API Calling
+		-Handle Network request
+		-
+
+	👉syntax- useEffect(callback_func,dependency);
+
+		useEffect(()=>{
+			},[])		--[name] only side effect on name function/state updated
+
+
+	3)useRef-It is used to handle the mutable object data
+		-it used to form handling
+		-does not cause re-rendering when update 
+
+	👉syntax-const Data=useRef(null)
+		-apply on onchange/onkeydown events 

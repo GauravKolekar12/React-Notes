@@ -1,0 +1,44 @@
+CONTEXT_API
+🔴Prop-Drilling-
+    -passing data to nested component through the props 
+    -Drilling the data to the nested components
+    -create a problem/complex coding/ cause more developing time/ performance down/ reduce maintanibility
+
+
+🔴useContext-To avoid prop-drilling process this hook is used.
+	-It passes the data directly to the nested components without props
+
+	👉CREATE-1)Import createContext function
+			--import {createContext} from 'react'
+
+		 2)Define Context variable outside the functional components and call
+			--const UserName=createContext()
+			--const UserEmail=createContext()
+
+
+		 3)Pass the values/data to provider 
+			  <UserName.Provider value={"Ram"}>
+				<UserMail.Provider value={"ram@gmail.com"}>
+				<consumer/>
+				</UserMail.Provider>
+			  </UserName.provider>
+
+		 4)Export created context to reused
+			--export {UserName,UserEmail};
+
+
+	
+	👉USE-  1)import useContext in consumer
+			import {useContext} from 'react'
+
+		2)Import Created context that were exported
+			import{UserName,UserEmail} from './component/Context'
+
+
+		3)Define variable Call/Use context hook
+			const username=useContext(UserName)
+			const usermail=useContext(UserEmail)
+
+			<h1>your name: {username} </h1>
+			<h1>your mail: {usermail} </h1?
+			

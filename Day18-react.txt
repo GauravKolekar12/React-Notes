@@ -1,0 +1,52 @@
+🔴JSON-(JavaScript Object Notation)
+    -Used to store Large amount of data
+    -is a object format i.e readable
+    -It is text file
+    -data can store and transfer to the web pages
+
+   👉syntax-const emp=[
+			{"key":"value"},
+		]
+
+    1)JSON.stringify()-converts the js object data into Json string
+
+    2)JSON.parse()-converts the json string into plain js object format
+
+
+🔴HTTP-Hyper Text Transfer Protocol
+    -communication between server and client through the url/API
+    -Perform on the basis of request-response protocol between client and server
+    -
+
+    Methods-
+	1)GET-to fetch the data
+
+	2)POST-to send the data
+
+	3)PUT/PATCH-to update the data(Put:whole or entire/Patch:small or specific part)
+
+	4)DELETE-to remove the data
+
+
+🔴API-Application Programming Interface
+    -connection between computer or programs
+    -responsible for data transfer
+    -is an url to fetch the data/communication between client and server
+
+
+
+   👉JSON Server-
+		-mkdir JsonData  -cd JsonData
+		-npm create -g json-server@0
+		-npx json-server --watch db.json
+
+   👉PostMan-It is a API testing tool
+	
+
+    Fake API-
+	https://reqres.in/api/users?page=2
+	https://jsonplaceholder.typicode.com/users
+
+
+
+

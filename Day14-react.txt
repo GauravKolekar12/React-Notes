@@ -1,0 +1,19 @@
+🔴Reducer Hook-
+    -Alternative of useState hook
+    -used to performance Optimization
+    -Used when you have complex multiple logic
+    -handle multiple cases/operations
+
+    👉Syntax-import {useReducer} form 'react'			--step2
+	   const initialstate={count:0}
+
+	   const reducer=()=>{					--step3
+			switch
+			if-else			--use any conditional rendering to perform operation to right logical part
+			ternary operator
+			}
+		
+	   const[state, dispatch]=useReducer(reducerfn,initial state)		--step2
+
+	   <button onclick={()=>dispatch({type : 'INC'})}> Update Count {state.count} </button>
+    

@@ -1,0 +1,22 @@
+🔴Components-	
+    -Building blocks of react application that is seperate jsx file
+    -It is a small piece of code ,used to build SPA 
+    -Display UI data i.e jsx code 
+
+    👉Types-
+	1)Stateless Functional Components
+	2)Stateful Class Components
+
+
+🔴Functional Components-
+    -There is no render() method
+    -There is no state
+
+👉Syntax-		import React from 'react'
+		Function App(){
+			return(
+			   <>...</>
+			)
+		}
+	
+		export default App

@@ -1,0 +1,19 @@
+# Angular VS React
+
+
+😊React- fb/JS lib- 
+         JSX
+         Virtual DOM
+         One way binding ( Parent To Child )
+
+😊Angular
+
+      Google -JS FW-2016
+      TS
+      Regular DOM
+      data binding-  Two way Binding-  Child to parent and parent to child
+
+
+😊Powershell Command
+     Get-ExecutionPolicy -List
+     Set-ExecutionPolicy RemoteSigned

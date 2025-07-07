@@ -1,0 +1,15 @@
+🔴React CDN Link-
+    https://legacy.reactjs.org/docs/cdn-links.html
+    https://nodejs.org/en
+    https://www.npmjs.com/
+
+🔴Package- 
+    npm i package_name
+    npm uninstall package_name
+    npm start
+    npm update package_name
+
+🔴Creating React App-
+    npx create-react-app firstapp
+    cd firstapp
+    npm start

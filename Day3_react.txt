@@ -1,0 +1,50 @@
+# Angular VS React
+🔴React- fb/JS lib- 
+         JSX
+         Virtual DOM
+         One way binding ( Parent To Child )
+
+🔴Angular
+      Google -JS FW-2016
+      TS
+      Regular DOM
+      data binding-  Two way Binding-  Child to parent and parent to child
+
+
+🔴PowerShell  Command
+     Get-ExecutionPolicy -List
+     Set-ExecutionPolicy RemoteSigned
+
+🔴Babel-
+    It is transpiler /compiler of web browser.
+    It convets jsx code into browser compitable code/version.
+
+🔴WebPack-
+    It is a javascript model Bundler that packages are auomatically load and run on browser.
+    It is used to building multiple packages
+
+🔴J-Query and AJAX-
+    👉jQuery-
+    	-is a JavaScript library that simplifies HTML DOM manipulation and event handling. 
+    👉AJAX-
+    	-(Asynchronous JavaScript and XML) is a technique for creating dynamic web pages that exchange data with a server without requiring a full page reload. 
+
+
+🔴Folder Structure-
+    👉1)packaege.json-Summary/Overview of the project file.
+		it is object format text file.
+    👉2)packageLock.json- MetaData of the package.jon file
+		It give detail information about it.
+		display installed node packages 
+    👉3)Readme.md-Document refine / instruction & information about /Plain text file
+    👉4)src file-It is a development file.In that actual jsx code can written.
+    👉5)gitignore-the file that wont to push on the GitHub
+    👉6)Node_module-Developing in built files of project
+    👉7)Public-Static Assets/video/audio files stored.
+
+
+🔴Semantic Versioning- Updation of version in system/server {e.g-19.1.0}
+    👉1)Patch-(0)	~
+    👉2)minor-(1)	^
+    👉3)Major-(19)	@
+      

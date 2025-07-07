@@ -1,0 +1,66 @@
+🔴Conditional Rendering in React App-
+
+    👉Ternary operator-{this.state.show ? ... :null}
+    👉! Not operator -to toggle data
+
+    👉if{
+       }else{};
+
+
+
+
+👉 this.state=({
+      all_prod:true,
+      elect_prod:true,
+      cloth_prod:true
+    })
+  }
+
+  Elt_Handler=()=>{
+      this.setState({
+        elect_prod:true,
+        cloth_prod:false
+      })
+    }
+
+  Clt_Handler=()=>{
+    this.setState({
+      cloth_prod:true,
+      elect_prod:false
+    })
+  }
+
+  All_Handler=()=>{
+    this.setState({
+      all_prod:true,
+      elect_prod:true,
+      cloth_prod:true
+    })
+  }
+
+
+
+👉<div className=" col-md-12">
+
+              {/* ****************Clothing**************** */}
+              <div className='row' >
+
+                {
+                  this.state.cloth_prod &&				--AND logical operator
+
+                  clothing.map((val,index)=>{
+                    return(
+                      <>
+                      <div className='col-md-3' key={val.id}>
+                        <Product      
+                        name={val.name}
+                        img={val.img}
+                        btn={val.btn}
+                        />
+                      </div>
+                      </>
+                    )
+                  })
+                }
+
+              </div>

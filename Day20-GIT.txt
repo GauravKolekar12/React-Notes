@@ -1,0 +1,91 @@
+🔴Git Repository-
+    -Internally track every version
+    -Automatic snapshot with every commit
+    -Branching allows safe & parallel work
+    -Revert to any stable version effortlessly
+
+🔴Git Version Control System-track changes in source code during development
+			-A local version control tool to track the code changes
+    👉Features-
+	-Free and Open source
+	-very fast
+	-Track project history
+	-Undo mistake easily
+	-collaborate with team members
+	-prevent code overwrite
+	-can work offline
+	-scalable
+	-work independently in branches
+
+    👉Repo-folder 
+	-Local Repo-(vs code)
+	-Remote Repo-(GitHub)
+
+🔴GitHub-
+    -A cloud platform to host and manage git repository online
+    -
+
+
+ 👉Commands-
+	1)git --version
+	2)git config --global user.name "GauravKolekar12"
+	3)git config --global user.mail "kolekargaurav1201@gmail.com"
+	4)git config --list
+
+
+  👉Commands to Push on Git-
+	1)Click on New  Repo(creating new folder)
+	2)Folder create on Local--   git clone https://github.com/GauravKolekar12/DataMappingDemo.git
+	3)git status       --track changes
+	4)git add.	   --add all changed files
+	5)git push origin main
+
+
+🔴Local to Github-
+  👉Commands-
+	1)git init
+	2)create repo on Github-git remote add origin https://github.com/GauravKolekar12/E-DataMapping.git
+	3)git add .
+	4)git push -u origin main  --upstream
+	5)git branch -M main      ---to change the branch master to main
+	6)
+
+
+🔴Branching & Merging-
+    -creating branch to changing code on your branch without changing on main branch for testing purpose
+    -bring your changes back into  the main/master branch
+
+👉Branch- 1)git branch  --to show branches
+	2)git checkout -b branch name   --creating new branch and all files are vitually set into that branch
+	3)git branch -d branchname      --for deleting the branch gooes on main branch 
+
+👉Merge-  1)git merge branchname --compare changes and merging in main branch(on local)
+		2)git add.
+		3)git commit -m "msg"
+		4)git push -u origin branchname
+
+	2)Pull-Request(PR)-on github dashboard
+	  pull command to merge on local while merging on remote-
+		-git checkout main
+		-git pull origin main
+
+	3)Merge Conflict-conflict happen when two branches edit the same line
+		-
+
+	4)git diff main frature1 --to see the difference between the branches where the changes occurs
+
+🔴Reset the code before commit-
+	-git reset index.html(filename)
+	-git reset			
+	-git reset --hard
+	-git log
+	-git reset <hash>
+
+👉Fork-copy other users data/repo on your github
+👉Collaborate with another team member/user using invite request	
+
+	
+
+
+
+ 

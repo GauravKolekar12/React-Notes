@@ -1,0 +1,22 @@
+🔴CRUD Operation-(Create-Read-Update-Delete)
+    -
+
+
+    👉Axois-promise-based HTTP client used in React applications to make requests to APIs or other external resources
+	-It simplifies the process of sending and receiving data, handling various HTTP methods (GET, POST, PUT, DELETE), and managing asynchronous operations.
+	-Automatically transfer the json data,used for API calling easily and efficiently
+
+
+
+
+    👉Get-
+
+    👉Post-
+
+    👉Delete-
+
+    👉Edit-
+
+
+
+   

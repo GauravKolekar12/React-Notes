@@ -1,0 +1,18 @@
+🔴Routing in react-router-dom -
+    -It is used to redirecting/navigating to multiple components/pages without re-reloading/re-rendering of SPA web page
+    -It is Built in function in react
+
+    👉BrowserRouter- Function which is used to defining routing & connecting with url
+	Is a function / module which is used to defined routing and connect with browser urls 
+
+    👉Router - for use in web browsers. Provides the cleanest URLs.
+
+    👉Routes-It is a container/wrapper which is used to define multiple Route
+
+    👉Route- path="" element="{component}"
+
+
+    👉<NavLink/>- Used to navigating/redirecting from one to another component without reloading web page. By default 'active' Class
+    
+🔴Fall-back Routing-
+    -when our path ir wrong the page will gives you error

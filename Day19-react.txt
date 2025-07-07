@@ -1,0 +1,50 @@
+🔴API Calling-
+    -fetch() the api/url data in useEffect method 
+
+
+
+    👉Promises- A Promise is an object representing the eventual completion (or failure) of an asynchronous operation. It provides a cleaner way to handle asynchronous operations compared to traditional callback functions, helping to avoid "callback hell."
+
+	States: 
+		-Pending: Initial state, neither fulfilled nor rejected.
+		-Resolve: Operation completed successfully.
+		-Rejected: Operation failed.
+
+	Methods:
+		-then(): Executes when the Promise is fulfilled.
+		-catch(): Executes when the Promise is rejected.
+		-finally(): Executes regardless of the Promise's outcome.
+
+
+
+    👉Async & Await- async/await is a way to handle asynchronous operations in programming
+	It is a simpler way to work with Promises in JavaScript. It lets you write code that handles tasks which take time, like fetching data, in a way like regular, step-by-step code. The async keyword is used to create a function that returns a Promise, while the await keyword pauses the function's execution until the Promise is done.
+
+
+	-Resolved Promise: Inside try().
+	-Rejected Promise: Inside catch().
+	-Regardless of Outcome: You can still use .finally() after try or catch.
+
+
+
+	useEffect(()=>{
+
+
+    	// used to fetch the data from url/api
+    	fetch('')
+    	.then((res)=>{
+      	res.json()
+      	.then((result)=>{
+        	console.log(result)
+        
+     	 })
+
+    	})
+  	},[])
+
+
+
+
+
+
+

@@ -1,0 +1,112 @@
+🔴LifeCycle Method-
+    -advance topic in class components
+    -follows the cycle {Birth-Growth-Death}
+    -have their own methods
+
+
+    1)Mount-(create/adding components in DOM tree)
+	👉Constructor()-create/initialize the instance
+
+	👉render()-return jsx code only/Pure Method
+
+	👉getInitialstate()-called before component creation
+
+	👉getDerivedStateFromProps()-access current state,props data and works accordingly and return it must
+				-called on each and every rendering
+				-used to modify state and props value
+				-used rearly in components
+
+	👉componentDidMount()-used to perform side effect on our web page similar to useEffect
+				-it is called after the rendering method 
+				-do something after rendering
+				-used in-API calling, triggers, SetTimeOut, Network Request
+	
+
+
+
+
+
+    2)Update-(growth/update of components)-when we update something on web page 
+	👉shouldComponentUpdate()-should i render or  not with components state props changed   (by default true)
+				-used to when react doesnot want to render state props changes
+				-when return value is false,it cannot return next methods
+				
+	syntax-shouldComponentUpdate(nextProps,nextState){}
+
+
+	👉getSnapshotBeforeUpdate()-return previous state props data before update
+				-should be called with componentDidUpadte()
+
+	syntax-getSnapshotBeforeUpdate(prevProp,prevState){}
+
+
+	👉componentDidUpadte()-called immediately after the update & return something
+				-used to conditional rendering/shallow comparising 
+
+	syntax-componentDidUpadte(prevProp,prevState,snapshot)
+
+
+
+
+
+
+    3)Unmount-(delete/destroy from the DOM tree)-
+	👉componentWillUnmount()-we cannot called setState
+
+
+
+
+
+=> 1)How to use lifecycle methon in functional component in React.js?
+---useEffect()
+
+1)Mounting-
+ import React, { useEffect } from 'react';
+
+    function MyComponent() {
+      useEffect(() => {
+        
+        console.log('Component mounted!');
+        
+      }, []); 
+
+      return <div>My Component</div>;
+    }
+
+2)Update-
+import React, { useEffect, useState } from 'react';
+
+    function MyComponent() {
+      const [count, setCount] = useState(0);
+
+      useEffect(() => {
+                console.log('Count updated:', count);
+      }, [count]); 
+
+      return (
+        <div>
+          <p>Count: {count}</p>
+          <button onClick={() => setCount(count + 1)}>Increment</button>
+        </div>
+      );
+    }
+
+3)Unmounting-
+ import React, { useEffect } from 'react';
+
+    function MyComponent() {
+      useEffect(() => {
+        console.log('Component mounted!');
+        
+        const timer = setInterval(() => console.log('Timer running'), 1000);
+
+        return () => {
+          
+          console.log('Component unmounted or effect re-running, cleaning up!');
+          clearInterval(timer);          // Clear the timer
+        };
+      }, []);
+
+      return <div>My Component</div>;
+    }
+	
